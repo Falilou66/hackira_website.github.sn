@@ -1,0 +1,111 @@
+body {
+    background-color: black;
+}
+
+#logo {
+    color: black;
+    font-size: 25pt;
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#linked {
+    width: 100%;
+    border: 2px solid rgb(77, 99, 9);
+    border-radius: 25px;
+    background-color: rgb(68, 190, 215);
+    display: flex;
+    align-items: center;
+    transition: all 0.5s ease;
+    /* Pour aligner verticalement les éléments au centre */
+}
+
+#linked:hover {
+    background-color: grey;
+    transition: all 0.5s ease;
+}
+
+#linked nav {
+    margin-left: 200px;
+}
+
+.lien {
+    color: black;
+    text-decoration: none;
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 15pt;
+    transition: all 0.5s ease;
+}
+
+.lien:hover {
+    color: white;
+    transition: all 0.5s ease;
+    font-size: 20pt;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 5px;
+    color: black;
+    background-color: white;
+}
+
+#welcom {
+    text-align: center;
+    color: white;
+}
+
+#partie1 {
+    text-align: center;
+}
+
+#partie1 div {
+    /* border: 2px solid white;
+    border-radius: 20px; */
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 100px;
+    margin-top: 50px;
+}
+
+#text1 {
+    color: white;
+    font-size: 20pt;
+    text-align: justify;
+}
+
+#photo1 {
+    border: none;
+    border-radius: 20px;
+}
+
+#photo1 img {
+    width: 100%;
+    border-radius: 20px;
+    height: 100%;
+}
+
+article {
+    color: white;
+}
+
+#stock {
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 50px;
+}
+
+#stock a {
+    color: bisque;
+    font-size: 20pt;
+    transition: all 0.5s ease;
+    text-decoration: none;
+}
+
+#stock a:hover {
+    font-size: 30pt;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    color: aqua;
+}

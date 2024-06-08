@@ -1,0 +1,61 @@
+body {
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+#formu {
+    border: 4px solid white;
+    border-radius: 20px;
+    width: 500px;
+    height: 600px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    backdrop-filter: blur(20px);
+}
+
+#formu h1 {
+    text-align: center;
+    color: white;
+    font-size: 40pt;
+    font-family: algerian;
+}
+
+.case {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+    color: black;
+}
+
+#sexe {
+    padding: 9px;
+}
+
+#valider {
+    /* padding-left: 100%; */
+    margin-top: 20px;
+    width: 100%;
+    height: 34px;
+    background-color: red;
+    color: white;
+    font-size: large;
+    transition: all 0.5s ease;
+    font-weight: bolder;
+}
+
+#valider:hover {
+    background-color: aqua;
+    transition: all 0.5s ease;
+}
+
+#formu p a {
+    color: yellow;
+}

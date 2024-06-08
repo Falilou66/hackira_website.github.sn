@@ -1,0 +1,88 @@
+#entete img {
+    width: 100%;
+    height: 200px;
+}
+
+body {
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: black;
+}
+
+marquee h1 {
+    color: white;
+}
+
+#formu {
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 450px;
+    height: 400px;
+    background-color: #004444;
+    margin-top: 75px;
+    margin-left: 35%;
+    background: transparent;
+    transition: all 0.5s ease;
+    backdrop-filter: blur(25px);
+}
+
+
+/* #formu:hover {
+    transform: scale(1.5);
+    transition: all 0.5s ease;
+} */
+
+#formu h2 {
+    text-align: center;
+    /*	font-weight: 	bold;*/
+    color: white;
+    font-size: 40pt;
+    font-family: algerian;
+}
+
+.label {
+    color: white;
+    font-weight: bold;
+    font-size: 20pt;
+    text-align: center;
+}
+
+.case {
+    height: 30px;
+    width: 75%;
+    border: 2px solid black;
+    border-radius: 20px;
+    /* color: white; */
+    font-size: 20pt;
+    margin-left: 10px;
+    transition: all 0.5s ease;
+    text-align: center;
+}
+
+.case:hover {
+    background-color: grey;
+    transition: all 0.5s ease;
+}
+
+#valider {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20pt;
+    /* border: 4px solid black; */
+    border-radius: 20px;
+    /*	padding: 20px;*/
+    transition: all 0.5s ease;
+}
+
+#formu p {
+    text-align: center;
+}
+
+#valider:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
